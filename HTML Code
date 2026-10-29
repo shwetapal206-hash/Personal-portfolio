@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shweta Pal | Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="logo">Shweta<span> ♡</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">☼</button>
+    </nav>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="tag">Hello, I'm Shweta 👋</span>
+
+                <h1>Shweta <span>Pal ♡</span></h1>
+
+                <h2>A Student Who Loves to Create.</h2>
+
+                <p>
+                    Exploring code, learning new things, and turning
+                    little ideas into creative digital experiences.
+                    One project at a time.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">Explore My Work →</a>
+                    <a href="#contact" class="btn secondary">✉ Contact Me</a>
+                </div>
+
+                <p class="hand-note">Dream it. Build it. Learn from it. ✦</p>
+            </div>
+
+            <div class="hero-art">
+                <div class="window-light"></div>
+                <div class="moon"></div>
+                <div class="plant">🌿</div>
+
+                <div class="laptop">
+                    <div class="laptop-screen">
+                        <span>Good Vibes</span>
+                        <span>Good Ideas</span>
+                        <span>Good Code ♡</span>
+                    </div>
+                    <div class="laptop-base"></div>
+                </div>
+
+                <div class="coffee">♡<small>coffee</small></div>
+
+                <div class="books">
+                    <span>Better Days</span>
+                    <span>Big Dreams</span>
+                    <span>Keep Learning</span>
+                </div>
+
+                <div class="sticky-note">
+                    ✓ Be kind<br>
+                    ✓ Stay curious<br>
+                    ✓ Keep going ☺
+                </div>
+
+                <span class="art-star star-one">✦</span>
+                <span class="art-star star-two">♡</span>
+                <span class="art-star star-three">✧</span>
+            </div>
+
+            <div class="scroll-note">SCROLL TO EXPLORE ↓</div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <div class="profile-art">
+                <div class="profile-circle">
+                    <span>SP</span>
+                </div>
+                <span class="profile-heart">♡</span>
+                <span class="profile-star">✦</span>
+            </div>
+
+            <div class="about-copy">
+                <span class="tag">About Me</span>
+                <h2>A little about <span>me ♡</span></h2>
+                <p>
+                    I am a BCA student passionate about web
+                    development and technology. I enjoy learning
+                    new skills, building creative projects, and
+                    improving my problem-solving abilities. I aim
+                    to create user-friendly and meaningful digital 
+                    experiences while continuously growing as a developer.
+                </p>
+                <p class="signature">Learning, growing, creating. ♡</p>
+            </div>
+
+            <div class="qualities">
+                <div class="quality">
+                    <div class="quality-icon purple">⌘</div>
+                    <h3>Problem Solver</h3>
+                    <p>Finding creative solutions.</p>
+                </div>
+
+                <div class="quality">
+                    <div class="quality-icon blue">▣</div>
+                    <h3>Web Developer</h3>
+                    <p>Turning ideas into websites.</p>
+                </div>
+
+                <div class="quality">
+                    <div class="quality-icon violet">▤</div>
+                    <h3>Always Learning</h3>
+                    <p>Growing one skill at a time.</p>
+                </div>
+
+                <div class="quality">
+                    <div class="quality-icon pink">♡</div>
+                    <h3>Positive Vibes</h3>
+                    <p>Curiosity makes things better.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills-section" id="skills">
+            <div class="skills-heading">
+                <span class="tag">My Skills</span>
+                <h2>What I Work With <span>✧</span></h2>
+                <p>Tools and technologies I'm learning and exploring.</p>
+            </div>
+
+            <div class="skills-list">
+                <div class="skill">
+                    <div class="skill-icon html">5</div>
+                    <strong>HTML</strong>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-icon css">3</div>
+                    <strong>CSS</strong>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-icon js">JS</div>
+                    <strong>JavaScript</strong>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-icon python">Py</div>
+                    <strong>Python</strong>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-icon cpp">C++</div>
+                    <strong>C++</strong>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-icon mysql">DB</div>
+                    <strong>MySQL</strong>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-icon more">✳</div>
+                    <strong>And More...</strong>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="projects section" id="projects">
+            <div class="projects-heading">
+                <div>
+                    <span class="tag">My Work</span>
+                    <h2>Featured Projects <span>✧</span></h2>
+                    <p>Small projects, big learning experiences.</p>
+                </div>
+
+                <a href="#contact" class="btn secondary">Let's Connect →</a>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-preview weather-preview">
+                        <div class="weather-sun">☀</div>
+                        <h3>24°C</h3>
+                        <p>Perfect Day</p>
+                        <div class="weather-lines">☁ &nbsp; ☂ &nbsp; ☀</div>
+                    </div>
+
+                    <div class="project-info">
+                        <span>☀ Weather App</span>
+                        <p>A weather interface made with web technologies.</p>
+                        <a href="#contact" class="project-link">View Project ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview game-preview">
+                        <div class="tic-board">
+                            <span>X</span><span>O</span><span>X</span>
+                            <span>O</span><span>X</span><span>O</span>
+                            <span>X</span><span>O</span><span>X</span>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <span>▦ Tic Tac Toe</span>
+                        <p>A simple interactive game built with JavaScript.</p>
+                        <a href="#contact" class="project-link">View Project ↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-preview portfolio-preview">
+                        <div class="mini-window">
+                            <span>Shweta Pal ♡</span>
+                            <div></div><div></div><div></div>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <span>▣ Portfolio Website</span>
+                        <p>My personal space on the internet.</p>
+                        <a href="#home" class="project-link">View Project ↗</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <footer class="contact" id="contact">
+            <div class="contact-title">
+                <span class="tag">Get In Touch</span>
+                <h2>Let's Connect! ♡</h2>
+                <p>Have an idea? Let's talk about it.</p>
+            </div>
+
+            <a class="contact-item" href="mailto:shwetapal206@gmail.com">
+                <span>✉</span>
+                <div>
+                    <small>Email</small>
+                    <p>shwetapal206@gmail.com</p>
+                </div>
+            </a>
+
+            <div class="contact-item">
+                <span>⌖</span>
+                <div>
+                    <small>Location</small>
+                    <p>Indore, Madhya Pradesh</p>
+                </div>
+            </div>
+
+            <div class="socials">
+                <small>Follow Me</small>
+                <div>
+                    <a href="https://www.linkedin.com/in/shweta-pal-642a4a402?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a>
+                    <a href="https://github.com/shwetapal206-hash" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a>
+                    <a href="https://www.instagram.com/shwetapal726?utm_source=qr&xtok=a3NwYjZ2ZTd1ZHR2" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+                </div>
+            </div>
+
+            <div class="thanks">Thanks for<br>visiting! ☺</div>
+        </footer>
+    </main>
+
+    <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
